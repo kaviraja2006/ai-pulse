@@ -16,3 +16,4 @@ LLM_API_URL = os.getenv("LLM_API_URL", "")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 LLM_MODEL = os.getenv("LLM_MODEL", "")
 TOKEN_HOURS = 12
+MIN_GROUP_SIZE = 5  # departments with fewer respondents are never shown on their own
